@@ -1,6 +1,6 @@
 from models import db, Sweet, Vendor, VendorSweet
 from flask_migrate import Migrate
-rom flask import Flask, render_template
+from flask import Flask, render_template
 from flask_restful import Api, Resource
 import os
 
